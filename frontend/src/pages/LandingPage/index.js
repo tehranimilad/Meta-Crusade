@@ -37,8 +37,8 @@ const LandingPage = () => {
             letterSpacing: "6px"});
   }, []);
     return(
-        <div>
-        <div class="animate-me">
+        <div className="crypto-animation">
+        <a href="/home"><div class="animate-me">
           Meta Crusade
         </div>
         <div class="animate-me">
@@ -80,6 +80,7 @@ const LandingPage = () => {
         <div class="animate-me">
           Meta Crusade
         </div>
+        </a>
       </div>
     )
 }

@@ -1,4 +1,4 @@
-body {
+.crypto-animation {
     background-color: #222;
     color: #fff;
     font-weight: 400;
@@ -18,4 +18,8 @@ body {
 
   span {
     display: inline-block;
+  }
+
+.animate-me {
+    color: white;
   }
