@@ -1,4 +1,5 @@
-/* .home-page-image {
-    background-image: url("");
-    height: 100vh
-} */
+.homeImage {
+    display: block;
+    margin: 0 auto;
+}
+
