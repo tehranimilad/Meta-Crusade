@@ -9,6 +9,7 @@ const HomePage = () => {
             <Nav>
             </Nav>
             <Image className="homeImage" src={metacrusade} ></Image>
+            <h1>Welcome to meta</h1>
         </div>
     )
 }
