@@ -2,7 +2,7 @@ import Image from 'react-bootstrap/Image'
 import metacrusade from './assets/Meta-Crusade.png';
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './HomePage.css'
 
 
