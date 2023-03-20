@@ -14,7 +14,7 @@ function Nav(props) {
           <a className="navbar-brand" href="/">Meta Crusade</a>
         </div>
         <Link to="/home" className="nav-link">Home</Link>
-        <Link to="/learnmore" className="nav-link">Account</Link>
+        <Link to="/learnmore" className="nav-link">Learn More</Link>
     
       </nav>
     );
