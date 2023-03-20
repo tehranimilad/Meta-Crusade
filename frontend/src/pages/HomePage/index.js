@@ -13,7 +13,7 @@ const HomePage = () => {
             </Nav>
             <Image className="homeImage" src={metacrusade} ></Image>
             <h1 className="homeContent">Welcome to meta</h1>
-            <Link className="homeContent" to="/learnmore">Learn More About Us</Link>
+            <Link className="homeContent" to="/learnmore">Learn More</Link>
         </div>
     )
 }
