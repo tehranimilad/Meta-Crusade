@@ -8,13 +8,12 @@ import './HomePage.css'
 
 const HomePage = () => {
     return(
-        <div>
+        <div className="homePageDiv">
             <Nav>
             </Nav>
             <Image className="homeImage" src={metacrusade} ></Image>
-            <h1>Welcome to meta</h1>
-            <Link to="/learnmore">Learn More About Us</Link>
-            
+            <h1 className="homeContent">Welcome to meta</h1>
+            <Link className="homeContent" to="/learnmore">Learn More About Us</Link>
         </div>
     )
 }
