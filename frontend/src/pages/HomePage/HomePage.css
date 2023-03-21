@@ -1,6 +1,7 @@
 .homeImage {
     display: block;
     margin: 0 auto;
+    border-radius: 50px;
 }
 
 .homePageDiv {
@@ -13,4 +14,11 @@
     text-align: center;
     display:block;
     margin: 0 auto;
+}
+
+.homeLink {
+    text-align: center;
+    display: block;
+    color: red;
+    font-size: 20px;
 }
