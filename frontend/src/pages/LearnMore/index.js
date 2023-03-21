@@ -8,7 +8,7 @@ const LearnMore = () => {
         <div className="learnMoreDiv">
             <Nav>
             </Nav>
-            <h1>More information about us</h1>
+            <h1>Here is more information about us:</h1>
             <ul> Team Members
                 <li>1</li>
                 <li>2</li>
