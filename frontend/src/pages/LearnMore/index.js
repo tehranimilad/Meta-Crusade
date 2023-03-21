@@ -1,14 +1,13 @@
 import Image from 'react-bootstrap/Image'
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
-import Button from 'react-bootstrap/Button'
+import './LearnMore.css'
 
 const LearnMore = () => {
     return(
-        <div>
+        <div className="learnMoreDiv">
             <Nav>
             </Nav>
-            <Image src=""></Image>
             <h1>More information about us</h1>
             <ul> Team Members
                 <li>1</li>
