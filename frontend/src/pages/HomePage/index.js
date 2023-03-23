@@ -12,7 +12,7 @@ const HomePage = () => {
             <Nav>
             </Nav>
             <Image className="homeImage" src={metacrusade} ></Image>
-            <h1 className="homeContent">Welcome to meta</h1>
+            <h1 className="homeContent">Welcome to Meta Crusade</h1>
             <Link className="homeLink" to="/learnmore">Learn More</Link>
         </div>
     )
