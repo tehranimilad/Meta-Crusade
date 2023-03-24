@@ -3,11 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 
 
-function Nav(props) {
-  
-  const navigate = useNavigate()
-
-
+function Nav() {
     return (
       <nav className="navbar mavbar-expand-lg navbar-light bg-light">
         <div className="navbar-header">
