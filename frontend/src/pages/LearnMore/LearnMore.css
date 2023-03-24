@@ -1,14 +1,15 @@
 .learnMoreDiv {
-    background-color: #222;
+    background-color: #000000;
     color: #fff;
     height: 100vh;
     text-align: center;
     justify-content: center;
+
 }
 
 .infoUl {
     text-decoration: none;
-    
+
 }
 
 

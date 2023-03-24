@@ -29,8 +29,8 @@ const HomePage = () => {
             <Nav>
             </Nav>
             <Button>Back</Button>
-            <Image className="homeImage" src={metacrusade} ></Image>
             <h1 className="homeContent">Welcome to Meta Crusade</h1>
+            <Image className="homeImage" src={metacrusade} ></Image>
             <Link className="homeLink" to="/learnmore">Learn More</Link>
         </div>
     )

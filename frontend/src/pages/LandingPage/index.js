@@ -7,7 +7,7 @@ const LandingPage = () => {
     useEffect(() => {
         // modified animation referenced from https://codepen.io/WojciechWKROPCE/pen/VwLePLy
       const mainAnimation = new Letterize({
-          targets: ".animate-me"
+          targets: ".landingAnimation"
       });
       // creates a new animation timeline, and set the targets to the elements returned by mainAnimation
       const animation = anime.timeline({
@@ -22,10 +22,10 @@ const LandingPage = () => {
           loop: true
       });
       // The animation has 4 steps:
-      // Scale property is set to 0.6
-      // letterSpacing property is set to "5px"
-      // Scale property is then set to 0.9
-      // letterSpacing property is then set to "8px"
+      // Scale property is set to 0.5
+      // letterSpacing property is set to "10px"
+      // Scale property is then set to 1
+      // letterSpacing property is then set to "6px"
       animation
           .add({
             scale: 0.5})
@@ -38,46 +38,46 @@ const LandingPage = () => {
   }, []);
     return(
         <div className="crypto-animation">
-        <a href="/home"><div class="animate-me">
+        <a href="/home"><div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
-        <div class="animate-me">
+        <div class="landingAnimation">
           Meta Crusade
         </div>
         </a>

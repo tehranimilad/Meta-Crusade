@@ -1,5 +1,5 @@
 .crypto-animation {
-    background-color: #222;
+    background-color: #000000;
     color: #fff;
     font-weight: 400;
     font-size: 3vw;
@@ -20,6 +20,6 @@
     display: inline-block;
   }
 
-.animate-me {
+.landingAnimation {
     color: white;
   }
