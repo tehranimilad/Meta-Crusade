@@ -25,8 +25,6 @@ const LearnMore = () => {
                 <li>Idea 4</li>
             </ul>
             </Card>
-            
-          
             </div>
         </div>
     )
