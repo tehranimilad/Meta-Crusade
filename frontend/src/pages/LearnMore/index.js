@@ -1,4 +1,5 @@
 import Image from 'react-bootstrap/Image'
+import Button from 'react-bootstrap/esm/Button';
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
 import './LearnMore.css'
@@ -10,6 +11,7 @@ const LearnMore = () => {
             <Nav>
             </Nav>
             <div>
+            <Button>Back</Button>
             <Card className="learnMoreDiv">
                 <h1>Here is more information about us:</h1>
                 <ul className="infoUl"> Team Members
