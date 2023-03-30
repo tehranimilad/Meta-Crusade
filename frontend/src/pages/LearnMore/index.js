@@ -7,10 +7,9 @@ import Card from 'react-bootstrap/Card'
 
 const LearnMore = () => {
     return(
-        <div className="learnMoreDiv">
+        <div className="mainDiv">
             <Nav>
             </Nav>
-            <div>
             <Button>Back</Button>
             <Card className="learnMoreDiv">
                 <h1>Here is more information about us:</h1>
@@ -27,7 +26,6 @@ const LearnMore = () => {
                 <li>Idea 4</li>
             </ul>
             </Card>
-            </div>
         </div>
     )
 }
