@@ -28,7 +28,7 @@ const HomePage = () => {
         <div className="homePageDiv">
             <Nav>
             </Nav>
-            <Button>Back</Button>
+            <Button className="backBtn">Back</Button>
             <h1 className="homeContent">Welcome to Meta Crusade</h1>
             <Image className="homeImage" src={metacrusade} ></Image>
             <Link className="homeLink" to="/learnmore">Learn More</Link>
