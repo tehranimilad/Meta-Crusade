@@ -85,3 +85,7 @@ main {
     stroke-linejoin: round;
   }
   
+  .backBtn {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
