@@ -9,7 +9,7 @@ const LearnMore = () => {
         <div className="mainDiv">
             <Nav>
             </Nav>
-            <Button>Back</Button>
+            <Button href="/home">Back</Button>
             <Card className="learnMoreDiv">
                 <h1>Here is more information about us</h1>
                 <ul className="infoUl"> Team Members:
