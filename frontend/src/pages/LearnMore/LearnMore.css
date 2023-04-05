@@ -1,6 +1,6 @@
 .learnMoreDiv {
-    background-color: #000000;
-    color: #fff;
+    background-color: #ffffff;
+    color: #ff0000;
     height: 100vh;
     text-align: center;
     justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 .mainDiv {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 
