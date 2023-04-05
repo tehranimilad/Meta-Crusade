@@ -6,8 +6,8 @@
 }
 
 .homePageDiv {
-    background-color: #000000;
-    color: #fff;
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
     height: 100vh;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@
 .homeLink {
     text-align: center;
     display: block;
-    color: red;
+    color: rgb(255, 0, 0);
     font-size: 20px;
     font-size: 25px;
 }
@@ -91,9 +91,9 @@ main {
   }
 
 .navbar-brand {
-  color: rgb(255, 191, 0);
+  color: rgb(255, 0, 0);
   }
 
 .nav-link  {
-  color: rgb(255, 191, 0);
+  color: rgb(255, 0, 0);
 }
