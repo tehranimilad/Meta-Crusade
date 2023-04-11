@@ -10,13 +10,13 @@ const LearnMore = () => {
             <Nav>
             </Nav>
             <Button className="backBtn" href="/home">Back</Button>
-            <Card className="learnMoreDiv">
+            <div className="learnMoreDiv">
                 <h1>Here is more information about us</h1>
                 <ul className="infoUl"> Team Members:
             </ul>
             <ul> Games we're creating
             </ul>
-            </Card>
+            </div>
         </div>
     )
 }
