@@ -13,10 +13,6 @@ const LearnMore = () => {
             <Card className="learnMoreDiv">
                 <h1>Here is more information about us</h1>
                 <ul className="infoUl"> Team Members:
-                <li className="infoUl">Meezy</li>
-                <li className="infoUl">OxR0amPal</li>
-                <li className="infoUl">3</li>
-                <li className="infoUl">4</li>
             </ul>
             <ul> Games we're creating
             </ul>
