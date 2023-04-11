@@ -19,10 +19,6 @@ const LearnMore = () => {
                 <li className="infoUl">4</li>
             </ul>
             <ul> Games we're creating
-                <li>Idea 1</li>
-                <li>Idea 2</li>
-                <li>Idea 3</li>
-                <li>Idea 4</li>
             </ul>
             </Card>
         </div>
